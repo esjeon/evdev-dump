@@ -1,0 +1,10 @@
+[package]
+name = "evdev-dump"
+version = "0.1.0"
+authors = ["Eon S. Jeon <esjeon@hyunmu.am>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+evdev-rs = "0.2.0"
+nix = "0.15.0"
